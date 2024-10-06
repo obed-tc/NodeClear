@@ -1,6 +1,6 @@
 {
   "name": "nodeclear",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to clean node_modules folders and free up disk space.",
   "main": "src/index.js",
   "scripts": {
@@ -27,6 +27,5 @@
     "colors": "^1.4.0",
     "inquirer": "^8.2.5",
     "cli-progress": "^3.12.0"
-
   }
 }
