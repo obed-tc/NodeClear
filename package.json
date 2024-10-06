@@ -1,0 +1,32 @@
+{
+  "name": "nodeclear",
+  "version": "1.0.0",
+  "description": "A tool to clean node_modules folders and free up disk space.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d lib"
+  },
+  "bin": {
+    "nodeclear": "./bin/nodeclear-cli.js"
+  },
+  "keywords": [
+    "nodeclear",
+    "clear",
+    "node_modules"
+  ],
+  "author": "obed-tc",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.5",
+    "cli-progress": "^3.12.0"
+
+  }
+}
