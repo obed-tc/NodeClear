@@ -1,12 +1,20 @@
 {
   "name": "nodeclear",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tool to clean node_modules folders and free up disk space.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "build": "babel src -d lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/obed-tc/NodeClear"
+  },
+  "bugs": {
+    "url": "https://github.com/obed-tc/NodeClear/issues"
+  },
+  "homepage": "https://github.com/obed-tc/NodeClear#readme",
   "bin": {
     "nodeclear": "./bin/nodeclear-cli.js"
   },
